@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*  HEADER */
+.header{
+    background-color: #fc0;}
+/*  Header LOGO */
+.header .logo{
+    display: inline-block;
+    margin: 0px 170px;
+    padding: 7px 40px;
+    padding-bottom: 0px;
+}
+.header .logo .fa-foursquare{
+    color: blue;
+    font-size: 45px;}
+/*   Navbar  */
+.header .navbar{
+    display: inline-block;
+    transform: translateY(-20px);
+    left: 100px;
+    padding-bottom: 0px;
+}
+.header .navbar .navbar-menu{
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.header .navbar .navbar-menu .navbar-list{
+    display: inline-block;
+    margin-right:20px;
+    font-size: 14px;
+}
+.header .navbar ul li .support{
+    color:black;
+    text-decoration: none;}
+.header .navbar ul li .language{
+    color:black;
+    text-decoration: none;}
+/*   NAV   */
+.header .nav .nav-menu{
+    margin:auto
+}
+.header .nav .nav-menu .nav-list{
+    display: inline-block;
+    padding: 5px 10px;   
+}
+.header .nav .nav-menu .nav-list a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    transition: 0.2s
+}
+.header .nav .nav-menu .nav-list a:hover{
+    background: rgb(87, 87, 255);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s
+}
+/* ARTICLE  About */
+.about{
+    background-image: url(../Images/Summer.jpg);
+    background-size: cover;
+    padding: 10% 20%;
+}
+.about .container{
+    background: rgba(0, 0, 0, 0.75);
+    padding-top: 10px;
+    color: white;
+}
+.about .container .content{
+    width: 40%;
+    display: inline-block;
+}
+.about .container span{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color:rgba(155, 155, 155, 0.5);
+    border-radius: 10px;
+}
+.about .container span .fas{
+    font-size: 30px;
+}
+.about .container span .description{
+    display: block;
+    padding-top: 5px;
+}
+.about .container span:hover{
+    background-color: rgb(87, 87, 255);
+    cursor: pointer;
+}
+.about .container .preview{
+    background-color: rgba(155, 155, 155, 0.5);
+    display: inline-block;
+    width: 40%;
+}
+
+.offer{
+    display: flex;
+}
+.offer .offer-details{
+    width: 60%;
+    padding: 40px;
+}
+.offer .offer-details .contanier .content{
+    display: flex;
+}
+.offer .offer-details .contanier .fa-foursquare{
+    color: blue;
+    font-size: 55px;
+    padding-right: 20px;
+}
+.offer .offer-details .contanier .bold{
+    color: blue;
+    font-weight: bold;
+    width: 430px;
+}
+.offer .offer-details .contanier span{
+    padding-left: 70px
+}
+.offer .offer-img{
+    background-image: url(../Images/offers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+}
+/* Start Inspiration */
+.Inspiration .container h4{
+    color: blue;
+}
+.Inspiration .container .items{
+    display: flex;
+    justify-content: space-around;
+}
+.Inspiration .container .items figure{
+  position: relative;
+  overflow: hidden;
+}
+.Inspiration .container .items figure figcaption{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(19, 19, 102, 0.8);
+    box-shadow: 0px 0px 10px 10px rgba(19, 19, 102, 0.8);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.Inspiration .container .items figure figcaption p{
+    font-size: 14px;
+    font-weight: 500;
+}
